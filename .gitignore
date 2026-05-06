@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+dist-ssr/
+
+# Block folder raksasa
+seed/
+dataset/
+data/
+node_modules/
+**/seed/
+**/dataset/
+**/data/
+
+# Logs
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev.log
+
+# Caching & V8 Runtime
+.eslintcache
+*.tsbuildinfo
+.vite
+
+# macOS & OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+
+# Others
+Review-1.md
+
